@@ -2,7 +2,7 @@
 
 #Putri Hepti Amelia
 # METODE 1: OPERATOR ROBERTS
-def roberts_edge_detection(image):
+    def roberts_edge_detection(image):
     if len(image.shape) == 3:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     
@@ -23,7 +23,7 @@ def roberts_edge_detection(image):
 
 
 # METODE 2: OPERATOR PREWITT
-def prewitt_edge_detection(image):
+    def prewitt_edge_detection(image):
     if len(image.shape) == 3:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     
@@ -43,8 +43,8 @@ def prewitt_edge_detection(image):
     return result
 
     # Valerie Alana Yusri
-    # METODE 3: OPERATOR SOBEL
-def sobel_edge_detection(image):
+# METODE 3: OPERATOR SOBEL
+    def sobel_edge_detection(image):
     if len(image.shape) == 3:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     
@@ -65,7 +65,7 @@ def sobel_edge_detection(image):
 
 
 # METODE 4: OPERATOR FREI-CHEN
-def frei_chen_edge_detection(image):
+    def frei_chen_edge_detection(image):
     if len(image.shape) == 3:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     
